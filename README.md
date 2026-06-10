@@ -119,4 +119,4 @@ All API endpoints are prefixed with `/api` and require authentication.
 
 This project is licensed under the **ISC License**.
 
-Developed with ❤️ by [Omkar P](https://github.com/omkar-p)
+Developed with ❤️ by [Omkar P](https://github.com/omkar142web/)
