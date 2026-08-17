@@ -1,3 +1,5 @@
+import Path from "path";
+import { fileURLToPath } from "url";
 import { env } from "../config/env.js";
 import { asyncHandler } from "../middleware/asyncHandler.js";
 import { clearAuthCookies, setAuthCookies } from "../middleware/requireAuth.js";
@@ -9,12 +11,15 @@ import {
 } from "../services/auth.service.js";
 import { sendSuccess } from "../utils/response.js";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = Path.dirname(__filename);
+
 export const getLogin = (req, res) => {
-  res.render("login");
+  res.sendFile(Path.join(__dirname, "..", "public", "login.html"));
 };
 
 export const getRegister = (req, res) => {
-  res.render("register");
+  res.sendFile(Path.join(__dirname, "..", "public", "register.html"));
 };
 
 export const postLogin = asyncHandler(async (req, res) => {
