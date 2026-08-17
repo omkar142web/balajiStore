@@ -3,3 +3,12 @@ node_modules
 .env
 info.md
 practicing js
+
+# Capacitor / Android
+android/app/build
+android/build
+android/.gradle
+android/local.properties
+android/app/release
+android/capacitor-cordova-android-plugins/build
+android/capacitor-android/build

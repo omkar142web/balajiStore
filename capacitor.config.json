@@ -1,0 +1,9 @@
+{
+  "appId": "com.balajistore.app",
+  "appName": "Balaji Store",
+  "webDir": "www",
+  "server": {
+    "url": "https://balaji-store-pied.vercel.app",
+    "cleartext": true
+  }
+}

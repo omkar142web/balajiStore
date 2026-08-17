@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Balaji Store</string>
+    <string name="title_activity_main">Balaji Store</string>
+    <string name="package_name">com.balajistore.app</string>
+    <string name="custom_url_scheme">com.balajistore.app</string>
+</resources>
